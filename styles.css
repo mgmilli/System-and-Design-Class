@@ -18,7 +18,7 @@ header {
 .container {
   max-width: 800px;
   margin: 50px auto;
-  background: #f1faee;
+  background: #f3f3f3;
   padding: 20px;
   border-radius: 10p;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
@@ -45,7 +45,7 @@ input, select, textarea, button {
 
 button {
   background-color: #0a4d68;
-  color: #f1faee;
+  color: #f3f3f3;
   cursor: pointer;
   height: 60px;
   font-size: large;
@@ -70,7 +70,7 @@ nav {
 h1{
   font-weight: bold;
   font-size: 40px;
-  color: #f1faee;
+  color: #f3f3f3;
   font-family: "Pixelify Sans", sans-serif;
 }
 
@@ -80,7 +80,7 @@ h1{
   background: none;
   border: none;
   cursor: pointer;
-  color: #f1faee;
+  color: #f3f3f3;
 }
 
 .nav-links {
@@ -91,7 +91,7 @@ h1{
 
 .nav-links a {
   text-decoration: none;
-  color: #f1faee;
+  color: #f3f3f3;
   font-weight: bold;
   padding: 0 10px;
 }
@@ -129,7 +129,7 @@ h1{
 
 
 .info-box {
-  background-color: #eef5ff;
+  background-color: #f9ffff;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 5px;
@@ -214,17 +214,20 @@ th, td {
 
 thead {
   background-color: #003d5b;
-  color: #f1faee;
+  color: #f3f3f3;
 }
 
 
 
 .print-pdf{
-  background-color: #f1faee;
+  background-color: #f3f3f3;
   color: #0a4d68;
   border: #0a4d68 solid 3px;
   width: 150px;
   margin-top: 30px;
   align-items: center;
   justify-content: center;
+}
+#detail-report{
+  overflow: scroll;
 }
